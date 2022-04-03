@@ -3,25 +3,6 @@
   --secondary-color: #f5f2fe;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
-@media screen and (max-width: 576px) {
-  h1 {
-    font-size: 20px;
-  }
-  h2 {
-    font-size: 18px;
-  }
-
-  h3 {
-    font-size: 13px;
-  }
-
-  p {
-    font-size: 15px;
-  }
-  .email-link {
-    font-size: 12px;
-  }
-}
 body {
   margin: 60px auto;
   max-width: 800px;
@@ -106,4 +87,36 @@ p {
 
 .email-link:hover {
   text-decoration: underline;
+}
+@media (max-width: 576px) {
+  h1 {
+    font-size: 65px;
+  }
+  h2 {
+    font-size: 35px;
+  }
+
+  h3 {
+    font-size: 28px;
+  }
+
+  p {
+    font-size: 23px;
+  }
+  .email-link {
+    font-size: 28px;
+  }
+  .col-md-6 {
+    text-align: center;
+    margin: o auto;
+  }
+  .col-sm-4 {
+    margin: 0px auto;
+  }
+  .mb-5 {
+    margin: 0px auto;
+  }
+  .p-3 {
+    padding: 0px auto;
+  }
 }
